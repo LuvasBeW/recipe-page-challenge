@@ -1,0 +1,94 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* importante */
+  padding: 40px 0; /* espaço quando tiver scroll */
+  background-color: hsl(30, 54%, 90%);
+}
+.card{
+    text-align: start;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+.preparation{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 25px 0;
+}
+.preparation h3{
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 10px;
+}
+.preparation ul{
+    padding-left: 20px;
+}
+.preparation li {
+  color: hsl(0, 0%, 0%);
+  margin-bottom: 5px;
+}
+h2{
+    color:hsl(14, 45%, 36%);
+}
+h1{
+    text-align: center;
+}
+.main-img{
+ width: 100%;
+ height:auto;
+ border-radius: 20px;
+}
+.ingredients li{
+    margin-bottom: 5px;
+}
+
+.instructions li {
+  margin-bottom: 10px;
+}
+
+.instructions li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+.nutrition h3{
+  color: hsl(14, 45%, 36%);
+  margin-bottom: 10px;
+}
+
+.nutrition p{
+  margin-bottom: 10px;
+}
+
+.nutrition table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.nutrition tr{
+  border-bottom: 1px solid gray;
+}   
+
+.nutrition tr:last-child{
+  border-bottom: none;
+}
+
+.nutrition td{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.nutrition td:first-child {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.nutrition td:last-child {
+    text-align: right;
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
+    padding-right: 30px;
+} 
